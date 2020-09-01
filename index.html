@@ -164,7 +164,7 @@ function initialize()
 	});
 	
 	reflectMesh = new THREE.Mesh( 
-		new THREE.SphereBufferGeometry(0.5, 32, 32), // new THREE.SphereBufferGeometry(1, 32, 32), 
+		new THREE.TorusKnotGeometry(1, 0.4, 128, 16), // new THREE.SphereBufferGeometry(1, 32, 32), 
 		refractMaterial 
 	);
 	
